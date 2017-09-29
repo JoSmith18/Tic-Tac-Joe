@@ -1,0 +1,45 @@
+.square {
+    width: 100px;
+    height: 100px;
+}
+
+.v {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.h {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+input {
+    width: 75px;
+    height: 75px;
+    margin-top: 12px;
+    font-size: 4.5em;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#board {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.rt {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    text-align: center;
+    margin: auto;
+}

@@ -1,0 +1,85 @@
+<html>
+
+<head>
+    <title>Free-For-All</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="static/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1>Tic-Tac-Joe</h1>
+    </div>
+    <div id="board">
+        <div>
+            <table>
+                <tr id="row1">
+                    <td class="square">
+                        <form action="/0">
+                            <input type="submit" value="{{ board[0][0] }}" {{ board[0][1] }}>
+                        </form>
+                    </td>
+                    <td class="square v">
+                        <form action="/1">
+                            <input type="submit" value="{{ board[1][0] }}" {{ board[1][1] }}>
+                        </form>
+                    </td>
+                    <td class="square">
+                        <form action="/2">
+                            <input type="submit" value="{{ board[2][0] }}" {{ board[2][1] }}>
+                        </form>
+                    </td>
+                </tr>
+                <tr id="row2">
+                    <td class="square h">
+                        <form action="/3">
+                            <input type="submit" value="{{ board[3][0] }}" {{ board[3][1] }}>
+                        </form>
+                    </td>
+                    <td class="square v h">
+                        <form action="/4">
+                            <input type="submit" value="{{ board[4][0] }}" {{ board[4][1] }}>
+                        </form>
+                    </td>
+                    <td class="square h">
+                        <form action="/5">
+                            <input type="submit" value="{{ board[5][0] }}" {{ board[5][1] }}>
+                        </form>
+                    </td>
+                </tr>
+                <tr id="row3">
+                    <td class="square">
+                        <form action="/6">
+                            <input type="submit" value="{{ board[6][0] }}" {{ board[6][1] }}>
+                        </form>
+                    </td>
+                    <td class="square v">
+                        <form action="/7">
+                            <input type="submit" value="{{ board[7][0] }}" {{ board[7][1] }}>
+                        </form>
+                    </td>
+                    <td class="square">
+                        <form action="/8">
+                            <input type="submit" value="{{ board[8][0] }}" {{ board[8][1] }}>
+                        </form>
+                    </td>
+                </tr>
+            </table>
+            <form action="/r">
+                <input type="submit" value="reset" class="rt">
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+
+
+</html>
